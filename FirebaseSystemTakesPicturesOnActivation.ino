@@ -11,18 +11,17 @@
 #include <addons/TokenHelper.h>
 
 // Replace with your network credentials
-const char* ssid = "Suhas alcatel";
-const char* password = "suhamirza";
+const char* ssid = "";
+const char* password = "";
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyAk29FCrnr3IiyC4a_hPsrPGkat9xqMD88"
+#define API_KEY ""
 
 // Insert Authorized Email and Corresponding Password
-#define USER_EMAIL "yahya2201129@gmail.com"
-#define USER_PASSWORD "yahya123456789123456789"
+#define USER_EMAIL ""
+#define USER_PASSWORD ""
 
-// Insert Firebase storage bucket ID e.g bucket-name.appspot.com
-#define STORAGE_BUCKET_ID "iot-secuirty.firebasestorage.app"
+#define STORAGE_BUCKET_ID ""
 
 // Photo File Name to save in LittleFS
 #define FILE_PHOTO_PATH "/photo.jpg"
