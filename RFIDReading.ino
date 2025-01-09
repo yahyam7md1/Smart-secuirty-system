@@ -3,8 +3,8 @@
 #include <MFRC522.h>
 
 // Wi-Fi Credentials
-const char* ssid = "Suhas alcatel";
-const char* password = "suhamirza";
+const char* ssid = "";
+const char* password = "";
 
 // RFID Pins
 #define RST_PIN 22
@@ -12,12 +12,12 @@ const char* password = "suhamirza";
 MFRC522 rfid(SDA_PIN, RST_PIN);
 
 // ESP32-CAM API Endpoints
-const char* motionActivateURL = "http://192.168.235.114/activate";  // Replace with ESP8266 IP
-const char* motionDeactivateURL = "http://192.168.235.114/deactivate"; // Replace with ESP8266 IP
+const char* motionActivateURL = "";  // Replace with ESP8266 IP
+const char* motionDeactivateURL = ""; // Replace with ESP8266 IP
 
 // Predefined RFID Tag IDs in byte format
-byte activateTag[] = {0x37, 0xCD, 0xCD, 0xCF}; // Replace with actual Activate tag ID
-byte deactivateTag[] = {0x83, 0x01, 0x64, 0xA6}; // Replace with actual Deactivate tag ID
+byte activateTag[] = {}; // Replace with actual Activate tag ID
+byte deactivateTag[] = {}; // Replace with actual Deactivate tag ID
 
 void setup() {
   Serial.begin(115200);
