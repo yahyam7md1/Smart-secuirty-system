@@ -5,15 +5,15 @@
 
 
 // Wi-Fi Credentials
-const char* ssid = "Suhas alcatel";
-const char* password = "suhamirza";
+const char* ssid = "";
+const char* password = "";
 
 // ESP32-CAM API Endpoint
-const char* captureImageURL = "http://192.168.235.173/activate"; // URL to trigger image capture on ESP32 CAM
+const char* captureImageURL = ""; // URL to trigger image capture on ESP32 CAM
 
 // Telegram Bot Token and Chat ID
-const char* botToken = "7398468940:AAFPPGkExlsMESYVfauZXVuiF4XT6qLlfN0"; // Your bot token
-const char* chatID = "1785699902"; // Your chat ID
+const char* botToken = ""; // Your bot token
+const char* chatID = ""; // Your chat ID
 
 // PIR Motion Sensor Pin
 #define PIR_PIN D6 // GPIO12 for NodeMCU
